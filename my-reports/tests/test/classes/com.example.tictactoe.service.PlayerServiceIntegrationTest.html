@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PlayerServiceIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PlayerServiceIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.tictactoe.service.html">com.example.tictactoe.service</a> &gt; PlayerServiceIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.331s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getNeighboorhoodReturnsEmptyListOfPlayers()</td>
+<td class="success">0.281s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getNeighboorhoodReturnsListOfPlayers()</td>
+<td class="success">0.050s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2021-07-05 09:17:56.827  INFO 5118 --- [    Test worker] &#x1f433; [amazon/dynamodb-local:latest]        : Creating container for image: amazon/dynamodb-local:latest
+2021-07-05 09:17:57.013  INFO 5118 --- [    Test worker] &#x1f433; [amazon/dynamodb-local:latest]        : Starting container with ID: 0988dc3cbc8061b251e1ae978e5202112666b74970cd04b659abce6e95b929b9
+2021-07-05 09:17:57.448  INFO 5118 --- [    Test worker] &#x1f433; [amazon/dynamodb-local:latest]        : Container amazon/dynamodb-local:latest is starting: 0988dc3cbc8061b251e1ae978e5202112666b74970cd04b659abce6e95b929b9
+2021-07-05 09:17:59.948  INFO 5118 --- [    Test worker] &#x1f433; [amazon/dynamodb-local:latest]        : Container amazon/dynamodb-local:latest started in PT3.121406S
+2021-07-05 09:17:59.956  INFO 5118 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-07-05 09:17:59.958  INFO 5118 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ce1496, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@47f392ec, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@59071729, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@23725038, org.springframework.test.context.support.DirtiesContextTestExecutionListener@52698a64, org.springframework.test.context.transaction.TransactionalTestExecutionListener@9d60637, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6809e67b, org.springframework.test.context.event.EventPublishingTestExecutionListener@59cb88d2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@476f1325, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7e315241, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@592c59c2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ca4c72d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@63ed01a7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17bae4c1]
+Started Dynamo on http://localhost:55191
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8.3</a> at 5 Jul 2021, 09:18:03</p>
+</div>
+</div>
+</body>
+</html>
